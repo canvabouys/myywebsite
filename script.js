@@ -140,7 +140,7 @@
         // Initialize typewriter effect
         const typewriterElement = document.querySelector('.text-orange.font-semibold span');
         if (typewriterElement) {
-            const words = ['startups.', 'business.', 'software.', 'finance.'];
+            const words = ['finance', 'software.', 'hacking.'];
             createTypewriterEffect(typewriterElement, words, 100);
         }
         
@@ -185,4 +185,5 @@
         initProjectModals: initProjectModals
     };
     
+
 })(); 
