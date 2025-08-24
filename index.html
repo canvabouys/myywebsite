@@ -18,7 +18,10 @@
     <meta property="og:url" content="https://nidith.dev" />
     <meta property="og:title" content="Nidith V S - Software Engineer | Python, Java, JavaScript Developer" />
     <meta property="og:description" content="Entry-level software engineer specializing in backend development, APIs, and DevOps. Expert in Python, Java, JavaScript, and cloud technologies." />
-    <meta property="og:image" content="https://nidith.dev/og-image.jpg" />
+    <meta property="og:image" content="https://nidith.dev/favicon_io/apple-touch-icon.png" />
+    <meta property="og:image:width" content="180" />
+    <meta property="og:image:height" content="180" />
+    <meta property="og:image:alt" content="Nidith V S - Software Engineer Portfolio" />
     <meta property="og:site_name" content="Nidith V S Portfolio" />
     <meta property="og:locale" content="en_US" />
     
@@ -27,7 +30,8 @@
     <meta name="twitter:url" content="https://nidith.dev" />
     <meta name="twitter:title" content="Nidith V S - Software Engineer | Python, Java, JavaScript Developer" />
     <meta name="twitter:description" content="Entry-level software engineer specializing in backend development, APIs, and DevOps. Expert in Python, Java, JavaScript, and cloud technologies." />
-    <meta name="twitter:image" content="https://nidith.dev/og-image.jpg" />
+    <meta name="twitter:image" content="https://nidith.dev/favicon_io/apple-touch-icon.png" />
+    <meta name="twitter:image:alt" content="Nidith V S - Software Engineer Portfolio" />
     
     <!-- Additional SEO Meta Tags -->
     <meta name="geo.region" content="IN-KA" />
@@ -45,14 +49,19 @@
     <!-- Stylesheet -->
     <link rel="stylesheet" href="style.css" />
     
-    <!-- Structured Data - JSON-LD -->
+    <!-- Structured Data - JSON-LD for Person -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "Person",
         "name": "Nidith V S",
         "url": "https://nidith.dev",
-        "image": "https://nidith.dev/programmer-gif.gif",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://nidith.dev/favicon_io/apple-touch-icon.png",
+            "width": "180",
+            "height": "180"
+        },
         "jobTitle": "Software Engineer",
         "description": "Entry-level software engineer with skills in backend development, application testing, APIs, and DevOps",
         "alumniOf": {
@@ -101,6 +110,27 @@
                 "name": "K N S Institute of Technology"
             }
         }
+    }
+    </script>
+    
+    <!-- Structured Data - JSON-LD for Website Logo -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Nidith V S Portfolio",
+        "url": "https://nidith.dev",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://nidith.dev/favicon_io/apple-touch-icon.png",
+            "width": "180",
+            "height": "180"
+        },
+        "author": {
+            "@type": "Person",
+            "name": "Nidith V S"
+        },
+        "description": "Portfolio website of Nidith V S - Software Engineer specializing in backend development and DevOps"
     }
     </script>
     
@@ -668,6 +698,7 @@
     
 </body>
 </html>
+
 
 
 
