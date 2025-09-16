@@ -140,7 +140,7 @@
         // Initialize typewriter effect
         const typewriterElement = document.querySelector('.text-orange.font-semibold span');
         if (typewriterElement) {
-            const words = ['finance', 'software.', 'hacking.'];
+            const words = ['AI.', 'finance', 'software.', 'hacking.'];
             createTypewriterEffect(typewriterElement, words, 100);
         }
         
